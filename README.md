@@ -1,6 +1,9 @@
 # Galaxy A06 5G (SM-A066B, a06x) test builds
 
-Unofficial LineageOS 23.2 builds for the Samsung Galaxy A06 5G. **Test builds: expect bugs. No GApps.**
+Unofficial builds for the Samsung Galaxy A06 5G. **Test builds: expect bugs.**
+
+- **LineageOS 23.2**: no GApps
+- **crDroid 12.13** (Android 16): with GApps
 
 Downloads: see [Releases](../../releases).
 
@@ -13,7 +16,7 @@ Downloads: see [Releases](../../releases).
 ## Flash
 1. Copy everything you want to keep off the phone (step 4 wipes internal storage).
 2. Boot OrangeFox > **Backup**: Data, System, System_ext, Product (to SD card or PC).
-3. **Install** the zip. It writes only system, system_ext and product and verifies each one.
+3. **Install** the zip (LineageOS or crDroid, not both). It writes only system, system_ext and product and verifies each one.
    Vendor, boot/kernel, recovery, modem and EFS are not touched (vbmeta only if needed).
 4. **Wipe > Format Data** (type `yes`).
 5. **Reboot System**. First boot can take 5+ minutes.
