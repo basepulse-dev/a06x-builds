@@ -6,7 +6,7 @@ Downloads: see [Releases](../../releases).
 
 ## Requirements
 - SM-A066B with unlocked bootloader and OrangeFox recovery
-- Stock vendor **A066BXXS3AYI3** (the installer checks this and refuses otherwise)
+- Stock vendor **A066BXXS3AYI3** or **A066BXXS3AYG2** (the installer checks this and refuses otherwise)
 - Already running a GSI (vbmeta already disabled)
 
 ## Flash
